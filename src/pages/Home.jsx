@@ -112,7 +112,7 @@ export default function Home() {
     {
       id: 1,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=800&h=600&fit=crop&q=80',
+      src: 'learning.jpg',
       alt: 'Students in classroom',
       title: 'Education Initiative',
       description: 'Children engaged in learning activities at one of our partner schools'
@@ -120,7 +120,7 @@ export default function Home() {
     {
       id: 2,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=800&h=600&fit=crop&q=80',
+      src: 'leadership.jpg',
       alt: 'Girls leadership program',
       title: 'Girls Leadership Program',
       description: 'Young girls participating in our leadership development workshops'
@@ -128,7 +128,7 @@ export default function Home() {
     {
       id: 3,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop&q=80',
+      src: 'women empowerment.jpg',
       alt: 'Women empowerment',
       title: 'Women Empowerment',
       description: 'Women learning new skills in our entrepreneurship training program'
@@ -136,7 +136,7 @@ export default function Home() {
     {
       id: 4,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&h=600&fit=crop&q=80',
+      src: 'comunity dev.jpg',
       alt: 'Community development',
       title: 'Community Development',
       description: 'Community members working together on development projects'
@@ -144,7 +144,7 @@ export default function Home() {
     {
       id: 5,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&q=80',
+      src: 'supplies.jpg',
       alt: 'School supplies distribution',
       title: 'School Supplies Distribution',
       description: 'Distributing educational materials to students in need'
@@ -152,7 +152,7 @@ export default function Home() {
     {
       id: 6,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop&q=80',
+      src: 'Volunteer activities.jpg',
       alt: 'Volunteer activities',
       title: 'Volunteer Activities',
       description: 'Our dedicated volunteers making a difference in the community'
@@ -160,7 +160,7 @@ export default function Home() {
     {
       id: 7,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1559599101-f09722fb4948?w=800&h=600&fit=crop&q=80',
+      src: 'Healthcare initiative.jpg',
       alt: 'Healthcare initiative',
       title: 'Healthcare Initiative',
       description: 'Providing medical care and health education to community members'
@@ -168,7 +168,7 @@ export default function Home() {
     {
       id: 8,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=600&fit=crop&q=80',
+      src: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop&q=80',
       alt: 'Youth development',
       title: 'Youth Development',
       description: 'Young people engaged in skill-building and personal development activities'
@@ -176,7 +176,7 @@ export default function Home() {
     {
       id: 9,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=600&fit=crop&q=80',
+      src: 'Community celebration.jpg',
       alt: 'Community celebration',
       title: 'Community Celebration',
       description: 'Celebrating achievements and milestones with the community'
@@ -184,7 +184,7 @@ export default function Home() {
     {
       id: 10,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&h=600&fit=crop&q=80',
+      src: 'ducational workshop.jpg',
       alt: 'Educational workshop',
       title: 'Educational Workshop',
       description: 'Interactive learning sessions for students and teachers'
@@ -192,7 +192,7 @@ export default function Home() {
     {
       id: 11,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1529390079861-591de354faf5?w=800&h=600&fit=crop&q=80',
+      src: 'Mentorship program.jpg',
       alt: 'Mentorship program',
       title: 'Mentorship Program',
       description: 'Experienced mentors guiding the next generation of leaders'
@@ -200,7 +200,7 @@ export default function Home() {
     {
       id: 12,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&h=600&fit=crop&q=80',
+      src: 'Sustainable development.jpg',
       alt: 'Sustainable development',
       title: 'Sustainable Development',
       description: 'Building sustainable solutions for long-term community impact'
@@ -284,10 +284,10 @@ export default function Home() {
   ]
 
   const colorClasses = {
-    red: 'from-red-500 to-red-700',
-    blue: 'from-blue-500 to-blue-700',
-    green: 'from-green-500 to-green-700',
-    purple: 'from-purple-500 to-purple-700',
+    red: 'from-[#5a4d9b] to-[#5a4d9b] hover:from-[#4a3d8b] hover:to-[#4a3d8b]',
+    blue: 'from-[#2792d1] to-[#2792d1] hover:from-[#1e7bb8] hover:to-[#1e7bb8]',
+    green: 'from-[#2792d1] to-[#2792d1] hover:from-[#1e7bb8] hover:to-[#1e7bb8]',
+    purple: 'from-[#5a4d9b] to-[#5a4d9b] hover:from-[#4a3d8b] hover:to-[#4a3d8b]',
   }
 
   const openLightbox = (index) => {
@@ -315,13 +315,13 @@ export default function Home() {
     <div className="animate-fadeIn">
       {/* Hero Section */}
       <section id="home" className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url(https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1920&h=1080&fit=crop&q=80)',
+            backgroundImage: 'url(/ong1.jpg)',
           }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/85 to-blue-900/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-blue-800/65 to-blue-900/70"></div>
         <div className="relative container-custom py-24 md:py-32">
           <div className="max-w-4xl">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
@@ -379,123 +379,6 @@ export default function Home() {
                 </div>
               </a>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section id="about" className="py-20 bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {t('about.title')}
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              {t('about.subtitle')}
-            </p>
-          </div>
-
-          {/* History Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-            <div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                {t('about.history')}
-              </h3>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                {t('about.historyText')}
-              </p>
-              <blockquote className="border-l-4 border-blue-600 pl-6 italic text-xl text-gray-800 mt-6">
-                "{t('about.quote')}"
-              </blockquote>
-            </div>
-            <div className="rounded-xl overflow-hidden shadow-2xl">
-              <img
-                src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&h=600&fit=crop"
-                alt="Our history"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Mission Section */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
-            <div className="order-2 lg:order-1 rounded-xl overflow-hidden shadow-2xl">
-              <img
-                src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=800&h=600&fit=crop"
-                alt="Our mission"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div className="order-1 lg:order-2">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                {t('about.mission')}
-              </h3>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                {t('about.missionText')}
-              </p>
-            </div>
-          </div>
-
-          {/* Values Section */}
-          <div className="mb-20">
-            <div className="text-center mb-12">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                {t('about.values')}
-              </h3>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {values.map((value, index) => (
-                <div
-                  key={index}
-                  className="p-8 bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg border border-blue-100"
-                >
-                  <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
-                    <value.icon className="w-8 h-8 text-white" />
-                  </div>
-                  <h4 className="text-2xl font-bold text-gray-900 mb-4">
-                    {value.title}
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed">
-                    {value.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Team Section */}
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 md:p-12">
-            <div className="text-center mb-12">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                {t('about.team')}
-              </h3>
-              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Passionate people dedicated to our mission
-              </p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { name: 'Faustine Grace', role: 'Founder & President' },
-                { name: 'To be completed', role: 'Executive Director' },
-                { name: 'To be completed', role: 'Programs Manager' },
-                { name: 'To be completed', role: 'Communications Manager' },
-              ].map((member, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
-                >
-                  <div className="aspect-square bg-gray-200 flex items-center justify-center">
-                    <Users className="w-16 h-16 text-gray-400" />
-                  </div>
-                  <div className="p-6 text-center">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2">
-                      {member.name}
-                    </h4>
-                    <p className="text-blue-600 font-medium">{member.role}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -586,6 +469,193 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Impact Story Section */}
+      <section className="py-20 bg-gradient-to-br from-blue-50 to-blue-100">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                {t('impactStory.title')}
+              </h2>
+              <p className="text-xl text-gray-600">
+                {t('impactStory.subtitle')}
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+              <div className="grid grid-cols-1 lg:grid-cols-2">
+                <div className="p-8 lg:p-12">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                    {t('impactStory.storyTitle')}
+                  </h3>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    {t('impactStory.paragraph1')}
+                  </p>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    {t('impactStory.paragraph2')}
+                  </p>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    {t('impactStory.paragraph3')}
+                  </p>
+                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                    {t('impactStory.paragraph4')}
+                  </p>
+                  <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-r-lg">
+                    <p className="text-xl font-semibold text-blue-800 italic">
+                      {t('impactStory.quote')}
+                    </p>
+                  </div>
+                </div>
+                <div className="relative">
+                  <img
+                    src="agnes.jpg"
+                    alt="Agnes and her mother"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                </div>
+              </div>
+              <div className="text-center mt-12">
+                <Link
+                  to="/stories"
+                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-200"
+                >
+                  {t('stories.readMoreStories', 'Read more Stories')}
+                  <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-20 bg-white">
+        <div className="container-custom">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              {t('about.title')}
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              {t('about.subtitle')}
+            </p>
+          </div>
+
+          {/* History Section */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                {t('about.history')}
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                {t('about.historyText')}
+              </p>
+              <blockquote className="border-l-4 border-blue-600 pl-6 italic text-xl text-gray-800 mt-6">
+                "{t('about.quote')}"
+              </blockquote>
+            </div>
+            <div className="rounded-xl overflow-hidden shadow-2xl">
+              <img
+                src="ong1.jpg"
+                alt="Our history"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          {/* Mission Section */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div className="order-2 lg:order-1 rounded-xl overflow-hidden shadow-2xl">
+              <img
+                src="ong3.jpg"
+                alt="Our mission"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="order-1 lg:order-2">
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">
+                {t('about.mission')}
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                {t('about.missionText')}
+              </p>
+            </div>
+          </div>
+
+          {/* Values Section */}
+          <div className="mb-20">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                {t('about.values')}
+              </h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {values.map((value, index) => (
+                <div
+                  key={index}
+                  className="p-8 bg-gradient-to-br from-blue-50 to-white rounded-xl shadow-lg border border-blue-100"
+                >
+                  <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mb-6">
+                    <value.icon className="w-8 h-8 text-white" />
+                  </div>
+                  <h4 className="text-2xl font-bold text-gray-900 mb-4">
+                    {value.title}
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    {value.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Team Section */}
+          <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8 md:p-12">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                {t('about.team')}
+              </h3>
+              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+                Passionate people dedicated to our mission
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {[
+                { name: 'Faustine Grace', role: 'Founder & President' },
+                { name: 'To be completed', role: 'Executive Director' },
+                { name: 'To be completed', role: 'Programs Manager' },
+                { name: 'To be completed', role: 'Communications Manager' },
+              ].map((member, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow"
+                >
+                  <div className="aspect-square bg-gray-200 flex items-center justify-center">
+                    <Users className="w-16 h-16 text-gray-400" />
+                  </div>
+                  <div className="p-6 text-center">
+                    <h4 className="text-xl font-bold text-gray-900 mb-2">
+                      {member.name}
+                    </h4>
+                    <p className="text-blue-600 font-medium">{member.role}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
 
       {/* Get Involved Section */}
       <section id="get-involved" className="py-20 bg-gray-50">
@@ -746,25 +816,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="text-center">
-            <div className="bg-blue-700 rounded-2xl p-8 md:p-12 text-white max-w-2xl mx-auto">
-              <h3 className="text-2xl font-bold mb-4">Stay informed about our news</h3>
-              <p className="mb-6 text-blue-100">Subscribe to our newsletter to receive our latest updates</p>
-              <form className="max-w-md mx-auto flex gap-4">
-                <input
-                  type="email"
-                  placeholder="Your email"
-                  className="flex-1 px-6 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
-                />
-                <button
-                  type="submit"
-                  className="px-8 py-3 bg-white text-blue-700 font-bold rounded-lg hover:bg-blue-50 transition-colors"
-                >
-                  Sign up
-                </button>
-              </form>
-            </div>
-          </div>
+
         </div>
       </section>
 

@@ -40,41 +40,35 @@ export default function Programs() {
   ]
 
   const colorClasses = {
-    blue: {
-      bg: 'bg-blue-600',
-      hover: 'hover:bg-blue-700',
-      text: 'text-blue-600',
-      bgLight: 'bg-blue-100',
+    primary: {
+      bg: 'bg-primary',
+      hover: 'hover:bg-primary-hover',
+      text: 'text-primary',
+      bgLight: 'bg-primary/10',
     },
-    red: {
-      bg: 'bg-red-600',
-      hover: 'hover:bg-red-700',
-      text: 'text-red-600',
-      bgLight: 'bg-red-100',
+    secondary: {
+      bg: 'bg-secondary',
+      hover: 'hover:bg-secondary-hover',
+      text: 'text-secondary',
+      bgLight: 'bg-secondary/10',
     },
-    green: {
-      bg: 'bg-green-600',
-      hover: 'hover:bg-green-700',
-      text: 'text-green-600',
-      bgLight: 'bg-green-100',
-    },
-    purple: {
-      bg: 'bg-purple-600',
-      hover: 'hover:bg-purple-700',
-      text: 'text-purple-600',
-      bgLight: 'bg-purple-100',
+    gray: {
+      bg: 'bg-gray',
+      hover: 'hover:bg-gray-hover',
+      text: 'text-gray',
+      bgLight: 'bg-gray/10',
     },
   }
 
   return (
     <div className="animate-fadeIn">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-br from-primary to-primary-dark text-white py-20">
         <div className="container-custom text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             {t('programs.title')}
           </h1>
-          <p className="text-xl text-blue-100 max-w-2xl mx-auto">
+          <p className="text-xl text-white/80 max-w-2xl mx-auto">
             {t('programs.subtitle')}
           </p>
         </div>

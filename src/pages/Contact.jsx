@@ -2,6 +2,17 @@ import { useState } from 'react'
 import { MapPin, Phone, Mail, Send, Facebook, Instagram, Linkedin, Youtube } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
+const TikTokIcon = ({ className = 'w-6 h-6' }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className={className}
+  >
+    <path d="M14 3v5.2c1.5 1.1 3.2 1.8 5 1.8v3.1c-1.9 0-3.7-.6-5-1.6v3.9A6 6 0 1 1 8 9.4v3.1a2.9 2.9 0 1 0 2 2.7V3h4z"/>
+  </svg>
+)
+
 export default function Contact() {
   const { t } = useTranslation()
   const [formData, setFormData] = useState({
@@ -49,6 +60,7 @@ export default function Contact() {
     { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:bg-pink-600' },
     { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:bg-blue-700' },
     { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:bg-red-600' },
+    { icon: TikTokIcon, href: '#', label: 'TikTok', color: 'hover:bg-black' },
   ]
 
   return (

@@ -11,7 +11,7 @@ export default function Gallery() {
     {
       id: 1,
       type: 'image',
-      src: 'https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=800&h=600&fit=crop&q=80',
+      src: '/learning.jpg',
       alt: 'Students in classroom',
       title: 'Education Initiative',
       description: 'Children engaged in learning activities at one of our partner schools'

@@ -9,7 +9,7 @@ All information from the Faustine Grace Foundation has been successfully integra
 ## 🏢 Organization Information Updated
 
 ### General Information
-- **Name**: Faustine Grace Foundation (FSF)
+- **Name**: Faustine Grace Foundation (FGF)
 - **Slogan**: Empowering Hope, Building Futures
 - **Location**: Nkol Bison, Yaoundé, Cameroon
 - **Phone**: +237 670 329 484 / +237 674 881 138
@@ -21,7 +21,7 @@ All information from the Faustine Grace Foundation has been successfully integra
 ## 📄 Pages Updated
 
 ### 1. **Home Page** (`src/pages/Home.jsx`)
-✅ Updated welcome text with FSF mission statement
+✅ Updated welcome text with FGF mission statement
 ✅ Added background image to hero section
 ✅ Updated statistics:
    - 500+ Children Supported
@@ -32,7 +32,7 @@ All information from the Faustine Grace Foundation has been successfully integra
 ✅ Updated call-to-action text
 
 ### 2. **About Page** (`src/pages/About.jsx`)
-✅ Updated history with FSF founding story
+✅ Updated history with FGF founding story
 ✅ Updated mission statement
 ✅ Changed values from 3 to 4:
    - Equity (replacing Integrity)
@@ -72,7 +72,7 @@ All information from the Faustine Grace Foundation has been successfully integra
 
 ### 6. **Footer** (`src/components/Footer.jsx`)
 ✅ Updated contact information
-✅ Updated about text to reflect FSF mission
+✅ Updated about text to reflect FGF mission
 ✅ Updated email address
 
 ---
@@ -154,10 +154,10 @@ All information from the Faustine Grace Foundation has been successfully integra
 ### Meet Agnes
 ✅ Added Agnes' story to the home page:
 - 9-year-old girl from Manyu Division
-- FSF covered her school costs
+- FGF covered her school costs
 - Mother received women's empowerment training
 - Mother now runs successful poultry business
-- Family transformed through FSF programs
+- Family transformed through FGF programs
 
 ---
 

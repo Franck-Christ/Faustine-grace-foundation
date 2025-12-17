@@ -1,6 +1,17 @@
 import { Facebook, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
+const TikTokIcon = ({ className = 'w-5 h-5' }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className={className}
+  >
+    <path d="M14 3v5.2c1.5 1.1 3.2 1.8 5 1.8v3.1c-1.9 0-3.7-.6-5-1.6v3.9A6 6 0 1 1 8 9.4v3.1a2.9 2.9 0 1 0 2 2.7V3h4z"/>
+  </svg>
+)
+
 export default function Footer() {
   const { t } = useTranslation()
   const currentYear = new Date().getFullYear()
@@ -10,6 +21,7 @@ export default function Footer() {
     { icon: Instagram, href: '#', label: 'Instagram' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Youtube, href: '#', label: 'YouTube' },
+    { icon: TikTokIcon, href: '#', label: 'TikTok' },
   ]
 
   const quickLinks = [
@@ -118,13 +130,13 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © {currentYear} Faustine Grace Foundation. {t('footer.rights')}.
+            {currentYear} Faustine Grace Foundation. {t('footer.rights')}.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
               {t('footer.privacy')}
             </a>
-            <a href="#" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="#" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
               {t('footer.terms')}
             </a>
           </div>

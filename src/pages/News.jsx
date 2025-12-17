@@ -151,7 +151,7 @@ export default function News() {
       </section>
 
       {/* Newsletter Section */}
-      <section className="py-20 bg-blue-700 text-white">
+    <section className="py-20 bg-blue-700 text-white">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Stay informed about our news
@@ -176,4 +176,4 @@ export default function News() {
       </section>
     </div>
   )
-}
+} 

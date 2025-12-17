@@ -16,7 +16,7 @@ const resources = {
       home: {
         welcome: 'Faustine Grace Foundation',
         subtitle: 'Empowering Hope, Building Futures',
-        welcomeText: 'La Faustine Grace Foundation (FSF) s\'engage à transformer des vies par l\'éducation, l\'autonomisation des femmes et le renforcement des communautés au Cameroun. Avec notre siège à Yaoundé, nous opérons principalement dans les régions du Sud-Ouest et du Nord-Ouest, avec notre premier programme phare sur l\'éducation et l\'autonomisation des femmes dans la division de Manyu. Ensemble avec nos partenaires, nous apportons espoir et opportunités aux enfants vulnérables, aux jeunes filles et aux femmes pour qu\'ils puissent s\'épanouir.',
+        welcomeText: 'La Faustine Grace Foundation (FGF) s\'engage à transformer des vies par l\'éducation, l\'autonomisation des femmes et le renforcement des communautés au Cameroun. Avec notre siège à Yaoundé, nous opérons principalement dans les régions du Sud-Ouest et du Nord-Ouest, avec notre premier programme phare sur l\'éducation et l\'autonomisation des femmes dans la division de Manyu. Ensemble avec nos partenaires, nous apportons espoir et opportunités aux enfants vulnérables, aux jeunes filles et aux femmes pour qu\'ils puissent s\'épanouir.',
         cta: 'Découvrir nos actions',
         donate: 'Faire un don',
         whoWeAre: 'Qui nous sommes',
@@ -30,7 +30,7 @@ const resources = {
         title: 'À propos de nous',
         subtitle: 'Notre histoire, notre mission, notre équipe',
         history: 'Notre Histoire',
-        historyText: 'La Faustine Grace Foundation a été fondée pour répondre aux besoins pressants des enfants vulnérables et des communautés marginalisées au Cameroun. Inspirée par la conviction que chaque individu mérite une chance d\'apprendre, de grandir et de diriger, FSF travaille à éliminer les barrières à l\'éducation et à créer des voies vers l\'autonomisation, en particulier pour les filles dans les communautés marginalisées.',
+        historyText: 'La Faustine Grace Foundation a été fondée pour répondre aux besoins pressants des enfants vulnérables et des communautés marginalisées au Cameroun. Inspirée par la conviction que chaque individu mérite une chance d\'apprendre, de grandir et de diriger, FGF travaille à éliminer les barrières à l\'éducation et à créer des voies vers l\'autonomisation, en particulier pour les filles dans les communautés marginalisées.',
         mission: 'Notre Mission',
         missionText: 'Notre mission est d\'autonomiser les communautés par l\'éducation, le développement du leadership et l\'entrepreneuriat tout en promouvant la justice sociale et la croissance communautaire durable.',
         values: 'Nos Valeurs',
@@ -61,6 +61,34 @@ const resources = {
         title: 'Actualités',
         subtitle: 'Restez informés de nos dernières actions',
         readMore: 'Lire la suite',
+      },
+      stories: {
+        title: 'Histoires d\'Impact',
+        subtitle: 'Découvrez des histoires inspirantes de transformation et d\'espoir',
+        readMoreStories: 'Lire plus d\'histoires',
+        readMore: 'Lire la suite',
+        backToStories: 'Retour aux histoires',
+        notFound: 'Histoire non trouvée',
+        categories: {
+          education: 'Éducation',
+          empowerment: 'Autonomisation',
+          community: 'Communauté'
+        },
+        agnes: {
+          title: 'Agnès et sa mère : Une histoire d\'espoir',
+          excerpt: 'Comment l\'éducation et l\'autonomisation ont transformé l\'avenir d\'une famille',
+          fullStory: 'Agnès est une jeune fille de 9 ans de la division de Manyu. Lorsque son père a perdu son emploi, Agnès a été menacée d\'abandon scolaire car sa famille ne pouvait plus payer les frais de scolarité, l\'uniforme ou même les repas quotidiens.\n\nGrâce à la Fondation Faustine Grace, les frais de scolarité d\'Agnès ont été pris en charge, et elle participe maintenant activement à l\'école avec confiance et sert de mentor à ses pairs.\n\nEn même temps, la mère d\'Agnès a suivi une formation dans le cadre de notre Programme d\'Autonomisation des Femmes. Elle a appris à gérer une petite entreprise avicole, acquis des compétences en éducation financière et gagne maintenant suffisamment pour subvenir aux besoins de sa famille.\n\nAujourd\'hui, Agnès va à l\'école tous les jours et sa mère est devenue une contributrice active de sa communauté.'
+        }
+      },
+      impactStory: {
+        title: 'Histoire d\'Impact: Rencontrez Agnès',
+        subtitle: 'Comment votre soutien transforme des vies',
+        storyTitle: 'Agnès et sa mère: Une histoire d\'espoir',
+        paragraph1: 'Agnès est une jeune fille de 9 ans de la division de Manyu. Lorsque son père a perdu son emploi, Agnès a été menacée d\'abandon scolaire car sa famille ne pouvait plus payer les frais de scolarité, l\'uniforme ou même les repas quotidiens.',
+        paragraph2: 'Grâce à la Fondation Faustine Grace, les frais de scolarité d\'Agnès ont été pris en charge, et elle participe maintenant activement à l\'école avec confiance et sert de mentor à ses pairs.',
+        paragraph3: 'En même temps, la mère d\'Agnès a suivi une formation dans le cadre de notre Programme d\'Autonomisation des Femmes. Elle a appris à gérer une petite entreprise avicole, acquis des compétences en éducation financière et gagne maintenant suffisamment pour subvenir aux besoins de sa famille.',
+        paragraph4: 'Aujourd\'hui, Agnès va à l\'école tous les jours et sa mère est devenue une contributrice active de sa communauté.',
+        quote: 'Votre soutien autonomise non seulement une vie, mais des familles et des communautés entières.'
       },
       getInvolved: {
         title: 'S\'impliquer',
@@ -94,7 +122,7 @@ const resources = {
       },
       footer: {
         about: 'À propos',
-        aboutText: 'Faustine Grace Foundation (FSF) transforme des vies au Cameroun par l\'éducation, l\'autonomisation des femmes et le développement communautaire.',
+        aboutText: 'Faustine Grace Foundation (FGF) transforme des vies au Cameroun par l\'éducation, l\'autonomisation des femmes et le développement communautaire.',
         quickLinks: 'Liens rapides',
         followUs: 'Suivez-nous',
         rights: 'Tous droits réservés',
@@ -117,7 +145,7 @@ const resources = {
       home: {
         welcome: 'Faustine Grace Foundation',
         subtitle: 'Empowering Hope, Building Futures',
-        welcomeText: 'The Faustine Grace Foundation (FSF) is committed to transforming lives through education, women\'s empowerment, and community empowerment in Cameroon. With headquarters in Yaoundé, we operate mainly in the Southwest and Northwest regions, with our first flagship program on education and women empowerment in the Manyu Division. Together with our partners, we provide hope and opportunities for vulnerable children, young girls and women to thrive.',
+        welcomeText: 'The Faustine Grace Foundation (FGF) is committed to transforming lives through education, women\'s empowerment, and community empowerment in Cameroon. With headquarters in Yaoundé, we operate mainly in the Southwest and Northwest regions, with our first flagship program on education and women empowerment in the Manyu Division. Together with our partners, we provide hope and opportunities for vulnerable children, young girls and women to thrive.',
         cta: 'Discover our work',
         donate: 'Donate',
         whoWeAre: 'Who we are',
@@ -134,7 +162,7 @@ const resources = {
         title: 'About Us',
         subtitle: 'Our story, our mission, our team',
         history: 'Our History',
-        historyText: 'The Faustine Grace Foundation was founded to respond to the pressing needs of vulnerable children and marginalized communities in Cameroon. Inspired by the belief that every individual deserves a chance to learn, grow, and lead, FSF works to remove barriers to education and create pathways to empowerment, especially for girls in marginalized communities.',
+        historyText: 'The Faustine Grace Foundation was founded to respond to the pressing needs of vulnerable children and marginalized communities in Cameroon. Inspired by the belief that every individual deserves a chance to learn, grow, and lead, FGF works to remove barriers to education and create pathways to empowerment, especially for girls in marginalized communities.',
         mission: 'Our Mission',
         missionText: 'Our mission is to empower communities through education, leadership development, and entrepreneurship while promoting social justice and sustainable community growth.',
         values: 'Our Values',
@@ -165,6 +193,34 @@ const resources = {
         title: 'News',
         subtitle: 'Stay informed about our latest actions',
         readMore: 'Read more',
+      },
+      stories: {
+        title: 'Impact Stories',
+        subtitle: 'Read inspiring stories of transformation and hope',
+        readMoreStories: 'Read more Stories',
+        readMore: 'Read more',
+        backToStories: 'Back to Stories',
+        notFound: 'Story not found',
+        categories: {
+          education: 'Education',
+          empowerment: 'Empowerment',
+          community: 'Community'
+        },
+        agnes: {
+          title: 'Agnes & Her Mother: A Story of Hope',
+          excerpt: 'How education and empowerment transformed a family\'s future',
+          fullStory: 'Agnes is a 9-year-old girl from the Manyu Division. When her father lost his job, Agnes was at risk of dropping out of school because her family could no longer afford the fees, uniform, or even daily meals.\n\nThrough the Faustine Grace Foundation, Agnes\' school costs were covered, and she now participates actively in school with confidence and mentors her peers.\n\nAt the same time, Agnes\' mother received training through our Women\'s Empowerment Program. She learned how to manage a small poultry business, gained financial literacy skills, and now earns enough to support her family.\n\nToday, Agnes attends school daily, and her mother has become an active contributor to her community.'
+        }
+      },
+      impactStory: {
+        title: 'Impact Story: Meet Agnes',
+        subtitle: 'How your support transforms lives',
+        storyTitle: 'Agnes & Her Mother: A Story of Hope',
+        paragraph1: 'Agnes is a 9-year-old girl from the Manyu Division. When her father lost his job, Agnes was at risk of dropping out of school because her family could no longer afford the fees, uniform, or even daily meals.',
+        paragraph2: 'Through the Faustine Grace Foundation, Agnes\' school costs were covered, and she now participates actively in school with confidence and mentors her peers.',
+        paragraph3: 'At the same time, Agnes\' mother received training through our Women\'s Empowerment Program. She learned how to manage a small poultry business, gained financial literacy skills, and now earns enough to support her family.',
+        paragraph4: 'Today, Agnes attends school daily, and her mother has become an active contributor to her community.',
+        quote: 'Your support empowers not just one life, but entire families and communities.'
       },
       getInvolved: {
         title: 'Get Involved',
@@ -219,7 +275,7 @@ const resources = {
       },
       footer: {
         about: 'About',
-        aboutText: 'Faustine Grace Foundation (FSF) transforms lives in Cameroon through education, women\'s empowerment, and community development.',
+        aboutText: 'Faustine Grace Foundation (FGF) transforms lives in Cameroon through education, women\'s empowerment, and community development.',
         quickLinks: 'Quick links',
         followUs: 'Follow us',
         rights: 'All rights reserved',

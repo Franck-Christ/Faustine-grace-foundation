@@ -8,9 +8,9 @@ export default function Navbar() {
 
   const navigation = [
     { name: t('nav.home'), href: '#home' },
-    { name: t('nav.about'), href: '#about' },
     { name: t('nav.programs'), href: '#programs' },
     { name: t('nav.gallery'), href: '#gallery' },
+    { name: t('nav.about'), href: '#about' },
     { name: t('nav.getInvolved'), href: '#get-involved' },
     { name: t('nav.news'), href: '#news' },
     { name: t('nav.contact'), href: '#contact' },
@@ -30,7 +30,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-50">
+    <nav className="bg-white shadow-md sticky top-0 z-50 transition-colors">
       <div className="container-custom">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -60,7 +60,7 @@ export default function Navbar() {
                   scrollToSection(item.href)
                 }}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
+                  'text-gray-700 hover:text-primary hover:bg-gray-50'
                 }`}
               >
                 {item.name}
@@ -68,7 +68,7 @@ export default function Navbar() {
             ))}
             <button
               onClick={toggleLanguage}
-              className="ml-4 flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50 transition-colors"
+              className="ml-4 flex items-center space-x-1 px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-primary hover:bg-gray-50 transition-colors"
             >
               <Globe className="w-4 h-4" />
               <span>{i18n.language.toUpperCase()}</span>
@@ -79,13 +79,13 @@ export default function Navbar() {
           <div className="md:hidden flex items-center space-x-2">
             <button
               onClick={toggleLanguage}
-              className="p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+              className="p-2 rounded-md text-gray-700 hover:text-primary hover:bg-gray-50"
             >
               <Globe className="w-5 h-5" />
             </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-md text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+              className="p-2 rounded-md text-gray-700 hover:text-primary hover:bg-gray-50"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
